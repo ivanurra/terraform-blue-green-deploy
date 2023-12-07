@@ -19,7 +19,7 @@ Your workflow should also handle the logic of switching traffic between the Blue
 Starter Template for the Workflow
 This template sets up a basic workflow that checks out your code, sets up Terraform, and configures AWS credentials:
 
-``
+```
 name: 'Terraform Blue-Green Deployment'
 on:
 push:
@@ -64,4 +64,4 @@ runs-on: ubuntu-latest # Use the latest Ubuntu runner
 
       # Switch traffic to the Blue environment if the Green environment is currently live
       - name:
-      ``
+```
